@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,10 +7,14 @@
     /* outline: 1px solid red; */
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 header {
     padding: 16px;
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     padding-bottom: 100px;
 }
 
@@ -21,7 +27,7 @@ header {
 .nav {
     display: flex;
     justify-content: space-between;
-    color: white;
+    color: #F9FAF8;
 }
 
 .nav ul {
@@ -36,7 +42,7 @@ header {
 
 .nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #F9FAF8;
 }
 
 /* Hero */
@@ -54,33 +60,167 @@ header {
 }
 
 .hero-left, .hero-right{
-    width: 50%;
+    flex: 1;
+    height: 300px;
 }
 
 .hero-left {
-    padding-right: 16px;
+    padding-right: 24px;
 }
 
 .hero-right {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
 }
 
 .hero-text {
     font-size: 48px;
     font-weight: 900;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 
 .hero-left button {
     border: none;
-    color: white;
+    color: #F9FAF8;
     font-size: 18px;
     font-weight: 900;
     background-color: #3882F6;
-    width: 100px;
-    padding: 10px;
+    width: 150px;
+    height: 40px;
     border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+/* Random information */
+
+.random-info {
+    height: 45vh;
+}
+
+.random-info h2 {
+    margin: 42px 0;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+
+}
+
+.random-info .container {
+    margin: 0 auto;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.random-info .box-container .box{
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    border: 3px solid #3882F6;
+    margin: 0 auto;
+}
+
+.random-info .box-container {
+    width: 180px;
+}
+
+.random-info p {
+    text-align: center;
+    color: #1F2937;
+    margin-top: 8px;
+}
+
+/* Quote section */
+
+.quote {
+    height: 45vh;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style:italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote span {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+/* call to action */
+
+.action {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action .action-container {
+    max-width: 60%;
+    height: 150px;
+    margin: 68px auto;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.action .action-container span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action .action-container p {
+    font-size: 18px;
+}
+
+.action .action-container button {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: #3882F6;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid white;
+    padding: 0;
+}
+
+/* Footer */
+
+footer {
+    height: 10vh;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
