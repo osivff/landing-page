@@ -1,6 +1,5 @@
-# Odin Project #2 - Landing Page (HTML - CSS)
-
-## This is a static mockup page using HTML and CSS, there is not functionability to it.
+# Odin Project #2 - Landing Page (HTML - CSS)💻 📄 ✅
+## This is a static mockup page using HTML and CSS, there is not functionability to it.⚠️💡
 
 This project was built to help me solidify concepts learned through the Odin Project curriculum. I use HTML and CSS to style the mockup page and some concepts that I learned and used are: 
 
@@ -19,5 +18,5 @@ This project was built to help me solidify concepts learned through the Odin Pro
     - Flex properties and values-- justify-content, align-items, flex.
     - Properties and values types-- number, length, keywords, colors, percentages.
 
-### Finsished project.
+### Finsished project.🎉 ✅ 
  ![alt text](<Screenshot 2025-03-02 at 06-16-18 Landing Page Oscar Fitch.png>)
